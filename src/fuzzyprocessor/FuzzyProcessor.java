@@ -8,7 +8,7 @@ package fuzzyprocessor;
 import java.util.ArrayList;
 
 /**
- * FuzzyProcessor. This class provides a simple fuzzy logic implementation. It
+ * This class provides a simple fuzzy logic implementation. It
  handles an ArrayList of FuzzyElement, which contains an element from a fuzzy
  set and its edge values. This class calculates the probability of a FuzzyProcessor
  belonging one or another fuzzy element by itself.

@@ -6,8 +6,11 @@
 package fuzzyprocessor;
 
 /**
- *
- * @author rubisco
+ * This class provides a Solution, which is a fuzzy element where the given number may belong
+ * and the probability of belonging to it.
+ * 
+ * @author rmonclus
+ * @version 1.0.0
  */
 public class Solution {
     
@@ -19,10 +22,18 @@ public class Solution {
         this.probability = probability;
     }
 
+    /**
+     * 
+     * @return The name of the solution
+     */
     public String getName() {
         return name;
     }
 
+    /**
+     * 
+     * @return The probability of the solution
+     */
     public double getProbability() {
         return probability;
     }
