@@ -5,4 +5,4 @@ This package provides a simple fuzzy logic implementation and all the structures
 
 Public classes are FuzzyProcessor, which is the main class of the project, and Solution. At the end of the project I thought of removing the Solution class and making FuzzyProcessor to return a Object[][], having pairs like {String name, Double probability}, but it would be more complicated for the teaching purposes of this project, which is, basicly, a technical solution that must be attached to the GUI that students have to design.
 
-There is another class, FuzzyElement, that is private and defines a section of the fuzzy schema. Initially it was a public class, but I found that it would be easier to work with separated atomic arguments instead of instances of a class like FuzzyElement, which can be handled internally.
+There is another class, FuzzyElement, that is private and defines a section of the fuzzy schema. Initially it was a public class, but I found that it would be easier for students to assing data to FuzzyProcessor by giving separated atomic arguments instead of instances of a class like FuzzyElement, which can be handled internally.
